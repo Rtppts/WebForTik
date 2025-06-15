@@ -4,17 +4,16 @@ import Mylogo from "../assets/MyLogo.png"
 import LogoTiktok from "../assets/LogoTiktok.png"
 import LogoDscord from "../assets/LogoDiscord.png"
 import QrDonate from "../assets/Donate.png"
-import LogoEasyDonate from "../assets/LogoEasyDanate.jpg"
-import { useNavigate } from "react-router-dom";
+//import { useNavigate } from "react-router-dom";
 
 function UserMain() {
-  const navigate = useNavigate();
+  //const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
 
   const handleClickToDiscord = () => {
     setLoading(true);  // เริ่มแสดง Loader
     setTimeout(() => {
-      window.open('https://discord.gg/FhVQaJ77');  //Start Link 1/6/2568   20:21
+      window.open('https://discord.gg/N7BsACgb');  //Start Link 1/6/2568   20:21
     }, 900);  // ดีเลย์ 2 วินาที
 
   };
