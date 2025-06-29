@@ -13,7 +13,7 @@ function UserMain() {
   const handleClickToDiscord = () => {
     setLoading(true);  // เริ่มแสดง Loader
     setTimeout(() => {
-      window.open('https://discord.gg/N7BsACgb');  //Start Link 1/6/2568   20:21
+      window.open('https://discord.gg/CE9arWQw');  //Start Link 23/6/2568   20:26
     }, 900);  // ดีเลย์ 2 วินาที
 
   };
